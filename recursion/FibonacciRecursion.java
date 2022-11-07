@@ -2,7 +2,7 @@ package com.sarvesh.recursion;
 
 public class FibonacciRecursion {
 	public static void main(String[] args) {
-		int n=9;
+		int n=4;
 		int res = fibo(n);
 		System.out.println(res);
 		

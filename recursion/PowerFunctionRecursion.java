@@ -10,7 +10,8 @@ public class PowerFunctionRecursion {
 
 	private static int recursion(int i,int j) {
 		
-		if (j==0||j==1) return i;
+		if (j==1) return i;
+		/*if (j==0) return 1;*/
 		return i * recursion(i,j-1);
 		
 	}
