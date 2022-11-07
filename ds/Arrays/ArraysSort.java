@@ -1,11 +1,11 @@
-package com.sarvesh.arrays;
+package com.sarvesh.ds.Arrays;
 
 import java.util.Arrays;
 
 public class ArraysSort {
 	
 	public static void main(String[] args) {
-		int arr[]= {5,2,4,9,10,7,3,8,2,1};
+		int arr[]= {5,2,4,9,10,7,3,8,2,1,1,1,0};
 		
 		Arrays.sort(arr);
 		

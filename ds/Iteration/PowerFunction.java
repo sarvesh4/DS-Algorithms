@@ -1,4 +1,4 @@
-package com.sarvesh.iteration;
+package com.sarvesh.ds.Iteration;
 
 public class PowerFunction {
 	public static void main(String[] args) {	

@@ -1,4 +1,4 @@
-package com.sarvesh.recursion;
+package com.sarvesh.ds.Recursion;
 
 public class PowerFunctionRecursion {
 	public static void main(String[] args)
