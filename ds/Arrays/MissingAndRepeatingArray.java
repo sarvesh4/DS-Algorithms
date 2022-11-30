@@ -6,7 +6,7 @@ public class MissingAndRepeatingArray {
 
 	public static void main(String[] args) {
 
-		int arr[] = {3,1,2,4,5,6,4};
+		int arr[] = {6,1,3,4,2,7,4};
 		int[] result = findMissingandRepeatingNumber(arr);
 		System.out.println(Arrays.toString(result));
 
@@ -18,7 +18,10 @@ public class MissingAndRepeatingArray {
 		
 		Arrays.sort(arr);
 		
-		for(int i=0; i<n-1; i++) {
+		for(int i=0; i<n; i++) {
+			if(i == n-1){
+                break;
+            }
 			if(arr[i]==arr[i+1]) {
 				result[0]=arr[i];
 			}

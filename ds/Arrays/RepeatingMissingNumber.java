@@ -103,8 +103,8 @@ public class RepeatingMissingNumber {
 
     public static void main(String[] args){
         RepeatingMissingNumber rmn = new RepeatingMissingNumber();
-        //int arr[] =  {3,1,2,4,5,6,4};
-        int arr[] =  {3,1,3};
+        int arr[] =  {3,1,2,4,5,6,4};
+        //int arr[] =  {3,1,3};
 
         System.out.println("Brute-force");
         for (int n: rmn.repeatingMissingNumberBruteForce(arr)){

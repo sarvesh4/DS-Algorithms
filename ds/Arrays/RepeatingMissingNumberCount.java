@@ -6,7 +6,7 @@ public class RepeatingMissingNumberCount {
 	
 	public static void main(String[] args) {
 
-		int arr[] = {3,1,2,4,5,6,4};
+		int arr[] = {3,1,2,7,5,6,7};
 		int[] result = findMissingandRepeatingNumber(arr);
 		System.out.println(Arrays.toString(result));
 
